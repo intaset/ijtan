@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /ijtan
+exclude: ['README.md',]

@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IJTAN - Numerical Investigations of Heat Transfer Performance of Nanofluids in a Flat Plate Solar
+Collector</title>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:300,400,400italic,500,600,700,700italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Antic+Slab:300,400,400italic,500,600,700,700italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="../css/style.css" />
+
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../images/icon.ico" rel="shortcut icon" type="image/x-icon">
+<!--Goole Analytics Most Visited Article Code-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-45305128-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<!-- Include Most Visited Articles JS Code -->
+ <script type="text/javascript" src="mostvisited.js"></script> 
+
+<!-- Include SHARE THIS js sources -->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "8f49e037-5155-4595-abc0-d069deae6488", doNotHash: true, doNotCopy: false, hashAddressBar: false, onhover:false});</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <div class="header">
+
+    <div class="container">
+
+      <div class="row">
+
+        <header id="header">
+          <div class="logo col-sm-4"><a href="http://avestia.com"><img src="/images/logo.png" alt="Journal" class="img" /></a></div>
+          <div class="threemenu col-sm-5">
+            <div class="row"><a class="link col-sm-4" href="http://avestia.com"><img src="/images/home.jpg" class="img"></a> <a class="link col-sm-4" href="http://avestia.com/journals/"><img src="/images/journals.jpg" class="img"></a> <a class="link col-sm-4" href="http://amss.avestia.com"><img src="/images/submit.jpg" class="img"></a></div>
+          </div>
+          <div class="searching col-sm-3">
+<div class="sharethis">Share this page:<br/>
+<span class='st_email'></span>
+<span class='st_facebook'></span>
+<span class='st_twitter'></span>
+<span class='st_googleplus'></span>
+<span class='st_linkedin'></span>
+</div>
+            
+         <div class="search_wrapper">
+         <form class="search" action="../results" method="get">
+              <fieldset>
+                <span class="text">
+                <input name="q" id="q" type="text" value="" placeholder="Search..." /><button class="search_top_button">GO</button>
+                </span>
+
+              </fieldset>
+            </form>
+            
+            </div>
+          </div>
+          <div class="col-lg-12">
+
+          <div class="avada-row">
+
+            <nav id="nav" class="nav-holder">
+
+              <div role="navigation" class="navbar navbar-default">
+
+                <div class="container-fluid">
+
+                  <div class="navbar-header">
+                  
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+<span class="navbar-brand" href="#">Menu</span>
+                  </div>
+
+                  <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav">			
+					<li><a href="/">Journal Home</a></li><span class="menu-line">|</span>
+                        <li><a href="../aims/">Aims and Scopes</a></li><span class="menu-line">|</span>
+                        <li><a href="../charges/">Article Processing Charges</a></li><span class="menu-line">|</span>
+                        <li><a href="../guidelines/">Author Guidelines</a></li><span class="menu-line">|</span>
+                        <li><a href="../board/">Editorial Board</a></li><br>
+                        <li><a href="../volumes/">Past Volumes</a></li><span class="menu-line">|</span>
+                        <li><a href="../current/">Current Volume</a></li><span class="menu-line">|</span>
+                        <li><a href="../propose/">Propose a Special Topic</a></li><span class="menu-line">|</span>
+                        <li><a href="../register/">Receive Updates</a></li><span class="menu-line">|</span>
+                        <li><a href="../contact/">Contact Us</a></li>
+
+
+
+
+                    </ul>
+
+                  </div>
+
+                  <!--/.nav-collapse -->
+
+                </div>
+
+                <!--/.container-fluid -->
+
+              </div>
+
+            </nav>
+
+            </div>
+
+          </div>
+          <div class="clearfix"></div>
+
+        </header>
+
+      </div>
+
+    </div>
+<div class="clearfix"></div>
+  </div>
+
+  <div class="slider">
+
+  <div class="container">
+
+  <div class="row"><div class="col-lg-12"><img class="img2" src="../images/international.jpg" alt="img"></div></div>
+
+  </div>
+
+  </div>
+
+  <div class="container">
+  <div class="clearfix"></div>
+  <div class="row">
+
+  <div class="col-lg-12 text">
+  
+<div align=center>
+<div class="table">
+
+    <table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 style='border:none; width: 100%'>
+         <tr>
+                <td>Volume 2, Year 2014 - Pages 30-39</td>
+                <td align="right"><a href="PDF/005.pdf">View PDF (Full-text)</a></td>
+        </tr>
+         <tr>
+                <td>DOI: 10.11159/ijtan.2014.005</td>
+                <td align="right"><a href="#references">Linked References</a></td>
+        </tr>
+		<tr>
+		<td colspan="2">ISSN: 1929-1248</td>
+		</tr>
+     </table>
+     
+</div>
+</div>
+
+
+<p align="center" style="font-size:22pt;"> Numerical Investigations of Heat Transfer Performance of Nanofluids in a Flat Plate Solar
+Collector</p>
+
+
+<p align="center"><strong>E. Ekramian, S. Gh. Etemad, M. Haghshenasfard*</strong>
+
+
+<br />Department of Chemical Engineering, Isfahan University of Technology, 84156-83111, Isfahan, Iran
+<br>haghshenas@cc.iut.ac.ir
+
+</p>
+
+<p>&nbsp;</p>
+
+
+<p align="justify"><i><strong>Abstract- </strong>
+In this study, numerical simulation was used for prediction of
+heat transfer coefficients and thermal efficiency of water and various
+nanofluids in a flat plate solar collector. Multi Wall Carbon Nano-Tube
+MWCNT/water, Al<sub>2</sub>O<sub>3</sub>/water, and CuO/water nanofluids with
+mass percents of 1, 2, and 3 wt% have been used as working fluids. Effects of
+temperature and mass flowrate on the thermal efficiency of pure water and
+nanofluids were studied, and the standard efficiency curves of collector under
+different operating conditions were compared to the experimental data. Good
+agreement between the numerical predictions and experimental data was observed.
+The results showed that the heat transfer coefficient and thermal
+efficiency of CuO/water nanofluid are greater than
+other working fluids.</i></p>
+
+
+<p>&nbsp;</p>
+
+<p align="left"><i><strong>Keywords:</strong></i> Flat
+plate solar collector, Nanofluid, computational fluid dynamics (CFD), Thermal
+efficiency, Numerical simulation.</p>
+
+<p>&nbsp;</p>
+<p align="justify">  &copy; Copyright 2014 Authors - This is an Open Access article published under the <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">Creative Commons Attribution License terms</a>. Unrestricted use, distribution, and reproduction in any medium are permitted, provided the original work is properly cited.</p>
+
+<p>&nbsp;</p>
+
+<p>
+Date Received: 2014-02-19 <br />
+
+Date Accepted: 2014-10-01 <br />
+
+Date Published: 2014-10-15
+</p>
+
+<h4>Nomenclature:</h4>
+
+<div class="widetable">
+<table style="border:0">
+ <tr>
+  <td style="padding:3px"><i>a</i></td>
+  <td style="padding:3px">Absorption coefficient (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">A<sub>c</sub></td>
+  <td style="padding:3px">Collector absorption area (m<sup>2</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">B</td>
+  <td style="padding:3px">Body force (N/m<sup>3</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">C<sub>P</sub></td>
+  <td style="padding:3px">Specific heat capacity (J/kg-K)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">d</td>
+  <td style="padding:3px">Diameter (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">g</td>
+  <td style="padding:3px">Gravitational acceleration (m/s<sup>2</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>G<sub>T</sub></i></td>
+  <td style="padding:3px">Total global solar radiation (W/m<sup>2</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">h</td>
+  <td style="padding:3px">Enthalpy (J/Kg)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">h</td>
+  <td style="padding:3px">Local heat transfer coefficient (W/m<sup>2</sup>k)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">I</td>
+  <td style="padding:3px">Radiation intensity (W/m<sup>2</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">k</td>
+  <td style="padding:3px">Thermal conductivity (W/m-K)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">L</td>
+  <td style="padding:3px">Length (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><img src="005_files/image003.png"></td>
+  <td style="padding:3px">Mass flow rate (kg/s)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">n</td>
+  <td style="padding:3px">Refractive index (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">P</td>
+  <td style="padding:3px">Pressure (Pa)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">Q<sub>u</sub></td>
+  <td style="padding:3px">Rate of energy gained (W)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><img src="005_files/image004.png"></td>
+  <td style="padding:3px">Position vector (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><img src="005_files/image005.png"></td>
+  <td style="padding:3px">Direction vector (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><img src="005_files/image006.png"></td>
+  <td style="padding:3px">Scattering direction vector (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">s</td>
+  <td style="padding:3px">Path length (m)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">t</td>
+  <td style="padding:3px">Time (s)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">T</td>
+  <td style="padding:3px">Temperature (K)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">U</td>
+  <td style="padding:3px">Interstitial velocity vector (m/s)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px" colspan="2"><b>Greek letters</b></td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&phi;</i></td>
+  <td style="padding:3px">Volume fraction (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&tau;</i></td>
+  <td style="padding:3px">Tension tensor(N/m<sup>2</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">&#961;</td>
+  <td style="padding:3px">Density (kg/m<sup>3</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">&micro;</td>
+  <td style="padding:3px">Viscosity (Pa.s)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&epsilon;</i></td>
+  <td style="padding:3px">Collector efficiency (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&xi;</i></td>
+  <td style="padding:3px">Phase function (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">&Omega;</td>
+  <td style="padding:3px">Solid angle (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&sigma;<sub>s</sub></i></td>
+  <td style="padding:3px">Scattering coefficient (dimensionless)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px"><i>&sigma;</i></td>
+  <td style="padding:3px">Stefan-Boltzmann constant (5.669 * 10<sup>-8</sup> W/m<sup>2</sup>-K<sup>4</sup>)</td>
+ </tr>
+ <tr>
+  <td style="padding:3px" colspan="2"><b>Subscript</b></td>
+ </tr>
+ <tr>
+  <td style="padding:3px">A</td>
+  <td style="padding:3px">Ambient</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">B</td>
+  <td style="padding:3px">Balk</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">bf</td>
+  <td style="padding:3px">Base fluid</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">i</td>
+  <td style="padding:3px">Inlet</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">nf</td>
+  <td style="padding:3px">Nanofluid</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">o</td>
+  <td style="padding:3px">Outlet</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">s</td>
+  <td style="padding:3px">Solid particle</td>
+ </tr>
+ <tr>
+  <td style="padding:3px">w</td>
+  <td style="padding:3px">Wall</td>
+ </tr>
+</table>
+</div>
+<br>
+
+<img src="../images/line.png" width="100%;" height="1" />
+<h2>1. Introduction</h2> 
+
+
+<p align="justify" style="text-indent:19.85pt;">The use of solar energy has been increased in recent years due to
+the declining fossil fuel resources and environmental concerns about global warming and air
+pollution. Although solar power is expensive relative to conventional
+sources of energy like natural gas, but its overall cost continues to decrease
+with a quick rate [1-2]. One of the
+main applications of solar energy is solar water heating systems which
+sunlight is transferred to water or working fluid. The most common types of
+solar water heaters are evacuated tube collectors (44%), flat plate collectors
+(34%); and unglazed plastic collectors (22%) [3-4].</p>
+
+<p align="justify" style="text-indent:19.85pt;">Flat plate solar collectors are the
+most common type of solar collectors for solar water-heating systems and are
+the simplest devices in this category. In a flat plate collector, the solar
+radiation energy is absorbed by a flat conductive plate and is transferred to
+the working fluid inside the tubes, which are attached on the absorber plate
+[5-7].</p>
+
+<p align="justify" style="text-indent:19.85pt;">Many experimental and numerical
+studies were performed to investigate on the flat plat
+solar collectors [5-18], but heat transfer of nanofluids in the flat plate
+solar collectors is limited to a few published studies [19-23].</p>
+
+<p align="justify" style="text-indent:19.85pt;">Recently an updated review of dynamic
+thermal models and CFD analysis of flat plate thermal solar collectors was
+presented by Tagliafico et al. [8]. Lumped-capacitance model and discretized
+model, which respectively were introduced by Close [9] and Klein et al. [10],
+have been analyzed in this work. The main investigations involving artificial
+neural network approach and CFD analysis on thermal solar collectors were also
+described. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Manjunath et al. [11]
+developed a CFD model to study the effect of surface geometry
+of solar collector on the thermal performance. The results
+of this configuration were compared to a dimple absorber plate. The CFD
+prediction showed that the average temperature of absorber
+plate and outlet water temperature for dimple configuration are higher than
+temperatures in flat plate solar collector. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Subiantoro and Tiow
+[12] proposed the analytical models for optimization of single and
+double glazing flat plate solar collectors. The models were used to predict the
+heat loss from the top cover of flat plate and the effect of the air gap
+spacing on the top heat loss. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Numerical simulations were adopted
+by Mintsa Do Ango et al. [13] for optimizing the design of polymeric flat plate
+solar collectors. Effects of operating conditions and
+geometrical parameters on thermal behavior of polymeric flat plate collector
+were studied. It was observed that the length of collector does not influence
+the collector performance and the efficiency of collector increases by
+increasing the air gap thickness up to 10 mm
+and then decreases slowly. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Numerical simulation was developed
+by Basavanna and Shashishekar [14] to
+study the thermal performance of triangular tube configuration on a
+flat plate solar collector. The special configuration of tubes makes larger contact area
+between the tube and the plate,
+which causes more energy to be absorbed. The numerical analysis have also
+been used by another researchers such as Karanth et al. [15], Selmi et al.
+[16], Turgut and Onur [17],
+and Fan et al. [18], for prediction of thermal performance of flat plate solar
+collectors. In these studies, the CFD technique is
+presented as a powerful,
+reliable, and cost saving tool for design and
+optimization of the solar collectors.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Review of the above-mentioned
+literature shows that the conventional fluids, such as water,
+are normally used as working fluids inside the solar collectors. Due to the low thermal performances of conventional fluids, new types of working
+fluids called "nanofluids" are now developed for enhancement of heat transfer
+efficiency of thermal devices.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Faizal et al. [19]
+studied the effects of various nanofluids on
+the thermal efficiency, and size
+reduction of the flat plat solar collectors. They found that by using the
+nanofluid as working fluid the efficiency of the collector increases. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Said et al. [20] performed some experiments for
+investigation on the nanofluid heat transfer on the flat plate solar
+collectors. Al<sub>2</sub>O<sub>3</sub>/water nanofluid with<sub> </sub>various
+concentrations has been used in this work and the effect of density and
+viscosity of nanofluid on the pumping power of solar collector were studied
+experimentally. </p>
+
+<p align="justify" style="text-indent:19.85pt;">In an interesting work, Yousefi
+et al. [21] performed an experimental study to investigate the role of MWCNT/water
+nanofluid as a working fluid in a flat plate solar collector. In their work,
+MWCNT/water nanofluid has been used and the effects of
+inlet temperature, mass flowrate, and nanofluid concentration on the thermal
+efficiency of collector were studied. The results showed that the
+efficiency increases by increasing the mass flowrate under the
+small values of reduced temperature differences. In another work, they were
+studied the effect of pH values of MWCNT/water nanofluid on
+the efficiency of the solar collector [22].
+They found that the difference between the pH of nanofluid and pH of
+isoelectric is an effective parameter on the collector efficiency.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Yousefi et al. [23]
+have also adopted the same procedure to investigate the
+effect of Al<sub>2</sub>O<sub>3</sub>/water nanofluid
+in a flat plate collector. The effects of operating conditions
+on the thermal efficiency were investigated and the
+results showed that the nanofluids are
+more efficient in comparison with water. </p>
+
+<p align="justify" style="text-indent:19.85pt;">As the review of previous researches shows, numerical
+simulation of nanofluids inside the flat plate solar
+collectors has not been reported so far.
+In the present work, a comprehensive numerical study on solar flat plate collector including
+heat transfer, and solar radiation models were considered. Effects of temperature, nanofluid
+concentration, and fluid mass flow rate on the heat transfer coefficient and
+thermal efficiency of the solar collector were presented. The CFD predictions were compared to
+the experimental data reported by Yousefi et al. [21].</p>
+
+<h2>2.
+Numerical Simulation</h2>
+
+<p align="justify" style="text-indent:19.85pt;">For the numerical simulation of a
+solar collector, the radiation and convection heat transfer
+between the tube surfaces, sidewalls, and glass cover and the convective heat
+transfer in the circulating nanofluid inside the tube should be considered. In
+this work, the nanofluid is treated as a single-phase
+fluid. In the single-phase or homogeneous model, nanoparticles and base fluid
+are assumed to be in thermal and hydrodynamic equilibrium [24]. Newtonian
+laminar fluid flow is governed by the usual continuity, momentum and energy
+equations for three-dimensional simulations as follows:</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continuity equation:
+<div class="eqn">
+<img src="005_files/image014.png" class="img">
+</div>
+<div class="eqn-number">(1)</div>
+</p>
+<br>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Momentum equation:
+<div class="eqn">
+<img src="005_files/image015.png" class="img">
+</div>
+<div class="eqn-number">(2)</div>
+</p>
+<br>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Energy equation:
+<div class="eqn">
+<img src="005_files/image016.png" class="img">
+</div>
+<div class="eqn-number">(3)</div>
+</p>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">Radiation plays a key role on the
+heat transfer and to reflect its effect, a radiation model is required. Four
+radiation models are available in ANSYS FLUENT software [25]: the Rosseland,
+P-1, surface to surface (S2S), discrete transfer (DTRM), and Discrete Ordinates
+(DO) radiation models. Discrete ordinates radiation model has been considered
+in this work. This model uses the radiative transfer equation (RTE) for
+simulation of solar energy [25]. Eq. 4 shows the RTE equation in the direction <img src="005_files/image017.png">:</p>
+
+<div class="eqn">
+<img src="005_files/image018.png" class="img">
+</div>
+<div class="eqn-number">(4)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The physical properties of the
+nanofluids are calculated using the following correlations: </p>
+
+<p align="justify" style="text-indent:19.85pt;">Pak and Choi's relation was used for
+calculation of the density [26]:</p>
+
+<div class="eqn">
+<img src="005_files/image019.png" class="img">
+</div>
+<div class="eqn-number">(5)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The viscosity of nanofluids is
+calculated from Drew and Passman [27] using the following relation:</p>
+
+<div class="eqn">
+<img src="005_files/image020.png" class="img">
+</div>
+<div class="eqn-number">(6)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">Zhou and Ni [28]
+suggested the following equation for calculation of the specific heat capacity
+of nanofluids. They showed this equation exhibits good agreement with the
+prediction from the thermal equilibrium model.</p>
+
+<div class="eqn">
+<img src="005_files/image021.png" class="img">
+</div>
+<div class="eqn-number">(7)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The effective thermal conductivity
+of nanofluids is calculated using a relation based on Maxwell's work [29]:</p>
+
+<div class="eqn">
+<img src="005_files/image022.png" class="img">
+</div>
+<div class="eqn-number">(8)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The
+governing equations were solved numerically using the finite volume technique,
+by a commercial CFD package, ANSYS-FLUENT 14. The SIMPLEC algorithm [30] was
+used to solve the pressure-velocity coupling in the momentum equations,
+backward differencing was used for the time and QUICK scheme was used for other
+terms discretization [31-32]. </p>
+
+<h2>3. Geometry and Boundary Conditions</h2>
+
+<p align="justify" style="text-indent:19.85pt;">As mentioned earlier, the CFD
+predictions are compared to the experimental data reported by Yousefi
+et al. [21]. The experimental setup used in their work is shown in Figure
+1 and consists of a closed circulation loop and a
+temperature-controlled tank for
+absorbing the heat load from the collector cycle. For transmit the heat load of
+the solar cycle to the working fluid, a heat exchanger inside the tank was
+used. The specification of this flat-plate solar collector is given in Table 1.
+</p>
+
+<figure>
+<img src="005_files/image023.png" class="img"/>
+
+<figcaption>
+Figure 1. The experimental setup used by Yousefi et al. [21]</figcaption>
+</figure>
+<br>
+
+<div class="widetable">
+<table>
+<caption>Table 1. The specifications of the flat-plate collector [21]</caption>
+<thead>
+ <tr style="border-top:1px solid black; border-bottom:1px solid black" align="center">
+  <td style="padding:5px">Specification</td>
+  <td style="padding:5px">Detail</td>
+ </tr>
+</thead>
+<tbody>
+ <tr align="center">
+  <td style="padding:5px">External Dimension</td>
+  <td style="padding:5px">2000 x 1000 x 95 mm</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Riser tubes material</td>
+  <td style="padding:5px">Copper</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Quantity</td>
+  <td style="padding:5px">9 tubes with 12.5 mm diameter</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Absorber material</td>
+  <td style="padding:5px">Aluminum</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Absorber Absorptivity</td>
+  <td style="padding:5px">0.96</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Absorber Emissivity</td>
+  <td style="padding:5px">0.05</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Cover material</td>
+  <td style="padding:5px">Low iron glass</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Cover thickness</td>
+  <td style="padding:5px">4 mm</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Cover Transmissivity</td>
+  <td style="padding:5px">0.92</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Gap spacing between absorber and cover</td>
+  <td style="padding:5px">Air with 25 mm thick</td>
+ </tr>
+ <tr align="center" style="border-bottom:1px solid black">
+  <td style="padding:5px">Title angle of plate</td>
+  <td style="padding:5px">45&deg;</td>
+ </tr>
+</tbody>
+</table>
+</div>
+<br>
+
+
+<p align="justify" style="text-indent:19.85pt;">Computational domain of the flat
+plate solar collector is shown in Figure 2. Following assumptions are made in
+the simulation:</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Working fluid is considered as a continuous medium, Newtonian, and
+incompressible fluid</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The flow regime is considered to be laminar</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The flow field is symmetric with respect to y-z plane, therefor just
+one riser tube and absorber plate was considered for simulation </p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Mass flowrates thorough all riser tubes are equal</p>
+
+<figure>
+<img src="005_files/image024.jpg" class="img"/>
+
+<figcaption>
+Figure 2. Schematic diagram of a
+flat plate solar collector</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">In this paper, mesh generation for the computational domain was
+made in Gambit 2.2.30. The sensitivity of the simulation results were checked
+by comparing the results for 50000, 85000, 150000, 200000, and 450000 elements.
+The simulation results for the temperature difference between inlet and outlet
+fluid were similar for 150000 and 200000 elements, therefor, 150000 tetrahedral
+elements were considered. </p>
+
+<p align="justify" style="text-indent:19.85pt;">In
+the simulation, the following boundary conditions were specified:</p>
+
+<p align="justify" style="text-indent:8pt;">1-&nbsp;&nbsp;&nbsp;&nbsp;
+&quot;Velocity inlet&quot; boundary condition was used for the
+inlet zone. At
+this boundary, the velocity component, and temperature must be specified. </p>
+
+<p align="justify" style="text-indent:8pt;">2-&nbsp;&nbsp;&nbsp;&nbsp;
+&quot;Outflow&quot; boundary condition was specified for
+the outlet zone.</p>
+
+<p align="justify" style="text-indent:8pt;">3-&nbsp;&nbsp;&nbsp;&nbsp;
+&quot;Symmetry&quot; boundary condition was
+considered for the middle wall of the riser tube </p>
+
+<p align="justify" style="text-indent:8pt;">4-"No-slip" boundary conditions were
+applied to the walls. The radiation parameters were specified for each zone. &quot;Semi-transparent&quot;
+option was enabled for upper wall to transmit the solar radiation into the
+collector area and the &quot;opaque&quot; option was used for the other
+surfaces.</p>
+
+<p align="justify">Thermo-physical properties of the materials are shown
+in Table 2.</p>
+
+<div class="widetable">
+<table>
+<caption>Table 2. Properties of material used in the simulation</caption>
+<thead>
+ <tr style="border-top:1px solid black; border-bottom:1px solid black" align="center">
+  <td style="padding:5px">Material</td>
+  <td style="padding:5px">Density (kg/m<sup>3</sup>)</td>
+  <td style="padding:5px">Thermal conductivity (W/m.K)</td>
+  <td style="padding:5px">Specific heat (J/kg.K)</td>
+ </tr>
+</thead>
+<tbody>
+ <tr align="center">
+  <td style="padding:5px">Air</td>
+  <td style="padding:5px">1.225</td>
+  <td style="padding:5px">0.0242</td>
+  <td style="padding:5px">1006.43</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Water</td>
+  <td style="padding:5px">998.2</td>
+  <td style="padding:5px">0.6</td>
+  <td style="padding:5px">4182</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Copper</td>
+  <td style="padding:5px">8978</td>
+  <td style="padding:5px">387.6</td>
+  <td style="padding:5px">381</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Aluminum</td>
+  <td style="padding:5px">2719</td>
+  <td style="padding:5px">202.4</td>
+  <td style="padding:5px">871</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">Glass</td>
+  <td style="padding:5px">2230</td>
+  <td style="padding:5px">1.14</td>
+  <td style="padding:5px">750</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">CuO nanoparticles</td>
+  <td style="padding:5px">6000</td>
+  <td style="padding:5px">33</td>
+  <td style="padding:5px">551</td>
+ </tr>
+ <tr align="center">
+  <td style="padding:5px">MWCNT</td>
+  <td style="padding:5px">1750</td>
+  <td style="padding:5px">3000</td>
+  <td style="padding:5px">710</td>
+ </tr>
+ <tr align="center" style="border-bottom:1px solid black">
+  <td style="padding:5px">Al<sub>2</sub>O<sub>3</sub> nanoparticles</td>
+  <td style="padding:5px">3890</td>
+  <td style="padding:5px">35</td>
+  <td style="padding:5px">880</td>
+ </tr>
+</tbody>
+</table>
+</div>
+<br>
+
+
+<h2>4. Results and Discussion</h2>
+
+<p align="justify" style="text-indent:19.85pt;">Typical plots of temperature distribution and velocity vectors in
+the studied solar collector are shown in Figure 3. </p>
+
+<figure>
+<img src="005_files/image025.png" class="img"/>
+
+<figcaption>
+Figure 3. (a) Temperature contours
+inside the collector (K) (b) velocities vectors (m/s)</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The velocity vectors show that the natural convection has an
+important role in heat
+transfer in the collector space.
+The color map, ranges from 303K to 329K for the temperature distribution
+between the absorber plate and glass cover. A criterion for a flat plate solar
+collector performance is the collector efficiency<b>, </b>which defined as the
+ratio of the heat gained by the working fluid to the total solar radiation
+incident on the collector surfaces. The relations are as follow:</p>
+
+<div class="eqn">
+<img src="005_files/image026.png" class="img">
+</div>
+<div class="eqn-number">(9)</div>
+<br>
+
+<div class="eqn">
+<img src="005_files/image027.png" class="img">
+</div>
+<div class="eqn-number">(10)</div>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">Numerical simulation is carried out
+to obtain the temperature distribution and thermal efficiency of various
+working fluids in a flat plate solar collector. </p>
+
+<p align="justify">Figure 4 shows the experimental and predicted
+thermal efficiency versus reduced temperature parameter
+(Ti - Ta)/G<b> </b>for MWCNT/water nanofluid. </p>
+
+<figure>
+<img src="005_files/image030.png" class="img"/>
+
+<figcaption>
+Figure 4. Thermal efficiency of
+collector with 0.2 wt% of MWCNT/water nanofluid</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The experiments were carried out by
+MWCNT/water nanofluid with 0.2 wt% of mass fraction and 0.05 kg/s of mass flow
+rate. This figure is used for the validation of the present numerical results. The
+CFD simulations show a good agreement with the experimental data, emphasizing
+the accuracy of the numerical results. The average relative error between the
+experimental data and CFD predictions is about 8.5%.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Numerical thermal performances of MWCNT/water nanofluids with mass
+percent of 1, 2, and 3% in the solar collector are presented in Figs. 5&amp; 6.</p>
+
+<figure>
+<img src="005_files/image031.png" class="img"/>
+
+<figcaption>
+Figure 5. Thermal efficiency for pure water and MWCNT/Water
+nanofluid</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image032.png" class="img"/>
+
+<figcaption>
+Figure 6. Thermal efficiency of MWCNT/water nanofluid versus mass flow rate</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">It can be seen that the heat transfer performance and thermal
+efficiency of MWCNT/water nanofluid are higher than those of the base-fluid. Based
+on the results of Figure 5, thermal efficiency increases with
+increasing the particle mass percent. Using of MWCNT/water
+nanofluid with 3% of mass fraction gives noticeable higher thermal
+efficiency than those of water by about 13.8%. Figure
+6 shows that the thermal efficiency increases with increasing
+the mass flow rates. By increasing the mass flowrate from 0.03 to 0.05 kg/s, thermal
+efficiency of 1% MWCNT/water nanofluid increases by 13.2%.</p>
+
+<p align="justify" style="text-indent:19.85pt;">According to Figure
+6, by increasing the mass flowrate, the outlet temperature of working fluid and
+the absorber temperature decrease, therefore, the thermal efficiency increases.
+The same trends have been reported by Mintsa Do Ango et al. [13] and Cristofari
+et al. [33].</p>
+
+<p align="justify" style="text-indent:19.85pt;">Figs. 7-8 show the thermal
+performance of Al<sub>2</sub>O<sub>3</sub>/water nanofluid in the solar
+collector. </p>
+
+<figure>
+<img src="005_files/image033.png" class="img"/>
+
+<figcaption>
+Figure 7. Thermal efficiency for pure water and Al<sub>2</sub>O<sub>3</sub>/water
+nanofluid</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image034.png" class="img"/>
+
+<figcaption>
+Figure 8. Thermal efficiency of Al<sub>2</sub>O<sub>3</sub>/water
+nanofluid versus mass flow rate</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">Similar to the MWCNT/water nanofluid,
+Al<sub>2</sub>O<sub>3</sub>/water nanofluid has more thermal
+efficiency in comparison with distilled water. For example,
+for a given reduced temperature parameter of 0.00625 (K.m<sup>2</sup>/W), the
+thermal efficiency of 3% nanofluid is about 6% and 9% higher than those of 1%
+nanofluid and pure water, respectively. Although the
+heat transfer coefficients of Alumina nanofluid are higher than MWCNT
+nanofluid, but the thermal efficiency of Alumina nanofluid is lower. This is probably due to the lower specific heat
+of MWCNT nanofluid in
+comparison with Alumina nanofluid.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Thermal performance of CuO /water nanofluid is shown in Figs.
+9-10. </p>
+
+<figure>
+<img src="005_files/image035.png" class="img"/>
+
+<figcaption>
+Figure 9. Thermal efficiency for pure water and CuO/Water nanofluid</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image036.png" class="img"/>
+
+<figcaption>
+Figure 10. Thermal efficiency of CuO/water nanofluid versus mass flow rate</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">The results clearly show that by increasing the mass flowrate, the
+heat transfer performance increases, which is mostly due to the large energy
+exchange from the chaotic movement of nanoparticles [34].
+At the constant mass flowrate of 0.03kg/s, thermal
+efficiency of 3% CuO/water nanofluid is about 20% and 13% higher than those of
+1% nanofluid and distilled water, respectively. </p>
+
+<p align="justify" style="text-indent:19.85pt;">In comparison with Al<sub>2</sub>O<sub>3</sub>/water nanofluid,
+the viscosity of CuO/water nanofluid is lower. The viscosity of nanofluids
+increases with increasing the nanofluid concentration, and this enhancement is
+greater for Al<sub>2</sub>O<sub>3</sub>/water nanofluid [35]. When the
+viscosity of nanofluid increases, the viscous forces are strong enough to
+overcome the Brownian motion of nanoparticles. The momentum and thermal
+boundary layer thickness under these conditions increases, therefore, the heat
+transfer coefficient decreases. </p>
+
+<p align="justify" style="text-indent:19.85pt;">Effect of reduced temperature parameter on the thermal efficiency
+is shown in Figure 10. Increasing the reduced temperature parameter is the
+result of an increase in inlet temperature of working fluid [13].
+By increasing the inlet temperature, the temperature of both absorber and glass
+increase, but the temperature of absorber enhances faster than the glazing
+temperature. Therefore, thermal losses through the glass cover are enhanced and
+consequently thermal efficiency of collector decreases.</p>
+
+<p align="justify" style="text-indent:19.85pt;">Comparison between the thermal performances of various nanofluids
+is presented in Figs. 11-14. </p>
+
+<figure>
+<img src="005_files/image037.png" class="img"/>
+
+<figcaption>
+Figure 11. Effect of mass fraction on the specific heat of nanofluids</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image039.png" class="img"/>
+
+<figcaption>
+Figure 12. Heat transfer coefficients of nanofluids versus mass
+fraction</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image040.png" class="img"/>
+
+<figcaption>
+Figure 13. Comparing the efficiency of various nanofluids under different mass flowrates</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="005_files/image041.png" class="img"/>
+
+<figcaption>
+Figure 14. Comparing the efficiency of various nanofluids versus reduced temperature parameter</figcaption>
+</figure>
+<br>
+
+<p align="justify" style="text-indent:19.85pt;">One of the most important parameters affecting on the thermal
+efficiency of the collector is specific heat of the working fluid.
+The specific heat for the nanofluids can be calculated by eq. 7.
+Figure 11 shows the specific heat of various nanofluids versus
+nanoparticle mass percent. It is clear that by increasing the mass percent,
+specific heat decreases. The low specific heat means that less energy
+needed to raise the temperature. CuO/water nanofluid possesses the lowest
+specific heat compared with other nanofluids. Therefore, we expect that the efficiency
+of the collector with CuO /water nanofluid be more than with other nanofluids. From Figs. 12-14 the heat
+transfer coefficient and thermal efficiency of CuO/water
+nanofluid are greater in comparison with other nanofluids. Figure
+12 shows the heat transfer coefficients of various working fluids. It can be
+found that the heat transfer performances of all three nanofluids are higher
+than the pure water. </p>
+
+<p align="justify" style="text-indent:19.85pt;">In general, heat transfer
+enhancement of nanofluids is due to the:</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Brownian motion of nanoparticles causes to turbulence effects and
+micro-convection, which enhance the heat transfer performance.</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+High thermal conductivity of the nanofluids increases the heat
+transfer rate.</p>
+
+<p align="justify" style="text-indent:19.85pt;">The average heat transfer coefficient of CuO /water nanofluid is
+about 4% and 2% higher than Al<sub>2</sub>O<sub>3</sub>/water and CNT/water
+nanofluids respectively. Enhancement of heat transfer coefficients of CuO
+/water, CNT/water and Al<sub>2</sub>O<sub>3</sub>/water nanofluids compared to
+the base fluid, are 6.5%, 4.5%, and 2% respectively. At the constant mass
+flowrate, thermal efficiency of CuO /water nanofluid with nanoparticle mass
+percent of 1% is about 3%, 6% and 9% higher than those of the CNT/water, Al<sub>2</sub>O<sub>3</sub>/water,
+and pure water, respectively.</p>
+
+
+
+<h2>5. Conclusions</h2>
+
+<p align="justify" style="text-indent:19.85pt;"> The heat transfer performance of various nanofluids inside a
+flat plate solar collector was investigated numerically. MWCNT/water,
+Al<sub>2</sub>O<sub>3</sub>/water, and CuO/water nanofluids with mass percents
+of 1, 2, and 3 wt% have been used as working fluids. Effects of
+working fluid, mass flowrate, nanoparticle mass percent, and inlet temperature
+on the heat transfer coefficients and thermal efficiency were
+examined. The numerical predictions were validated using the experimental data in
+the literature with the same conditions<span lang=EN-GB
+style='font-size:11.0pt;font-family:"Cambria","serif";color:black'> and good
+agreement was obtained. <span lang=EN-GB style='font-size:11.0pt;
+font-family:"Cambria","serif";color:black'>The main conclusions are summarized
+as follow:</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Higher thermal conductivity of nanofluids and Brownian
+motion of nanoparticles cause better heat transfer performances. Heat
+transfer performance and thermal efficiency of employed nanofluids were higher
+than the base fluid.</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The Brownian motions and chaotic movement of
+nanoparticles enhances with increasing the nanofluid concentration. Therefore,,
+the thermal efficiency of the collector increases with increasing
+the nanoparticle mass percent. For example, the thermal
+efficiency of 3% CuO/water nanofluid is about 20% and 13% higher than those of
+1% nanofluid and distilled water, respectively.</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+By increasing the mass flowrate, the coolant outlet temperature,
+and the absorber temperature decrease. Increasing the flowrate improves the
+solar collector's thermal efficiency, but the coolant outlet temperature is
+then reduced. By increasing the mass flowrate from 0.03 to 0.05 kg/s, thermal
+efficiency of 1% MWCNT/water nanofluid increases by about 13.2%.</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+By increasing the inlet temperature, the temperature difference
+between the absorber plate and glass cover decreases. Therefore,
+thermal losses is enhanced in collector, consequently thermal efficiency of
+collector reduces.</p>
+
+<p align="justify" style="text-indent:8pt;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The specific heat of nanofluids has a very important role on the
+thermal efficiency of the solar collectors. CuO/water nanofluid has lowest
+specific heat compared with Al<sub>2</sub>O<sub>3</sub>/water and
+CNT/water nanofluids. Therefore, based on the results the
+heat transfer coefficients and thermal efficiency of CuO/water
+nanofluid are greater than those of other nanofluids. The average
+heat transfer coefficient of CuO /water nanofluid is about 4% and 2% higher
+than those of Al<sub>2</sub>O<sub>3</sub>/water and CNT/water nanofluids
+respectively. For constant mass flowrate, thermal efficiency of 1% wt CuO
+/water nanofluid is about 3%, 6% and 9% higher than those for the CNT/water, Al<sub>2</sub>O<sub>3</sub>/water,
+and pure water, respectively.</p>
+
+<h2>Acknowledgements</h2>
+
+<p align="justify" style="text-indent:19.85pt;">The authors would like to express their appreciation to the
+Iranian Nanotechnology Initiative Council for providing financial support.</p>
+
+
+<br>
+
+<H2><a name="references">References</a></H2>
+
+<p>[1] M.
+AL-Khaffajy, R. Mossad, Optimization of the heat exchanger in a flat plate
+indirect heating integrated collector storage solar water heating system, Renew.
+Energ. 57 (2013) 413-421. <a href="http://dx.doi.org/10.1016/j.renene.2012.11.033" target="_blank">View Article</a></p>
+
+<p>[2] W. Kong, Zh. Wang,
+J. Fan, P. Bacher, B. Perers, Z. Chen, S. Furbo, An improved dynamic test
+method for solar collectors, Sol. Energ. 86 (2012) 1838-1848. <a href="http://dx.doi.org/10.1016/j.solener.2012.03.002" target="_blank">View Article</a></p>
+
+<p>[3] R. K. Naggi, Solar energy
+and its uses<b>, </b>First Edition, Mahaveer &amp; sons, New Delhi, 2009. <a href="http://books.google.ca/books?id=7UIFceaZd-gC&pg=PT9&dq=Solar+energy+and+its+uses&hl=en&sa=X&ei=ork-VP6HC4aeyATSr4Fg&redir_esc=y#v=onepage&q&f=false" target="_blank">View Book</a></p>
+
+<p>[4] N.K. Vejen, S.
+Furbo, L.J. Shah, Development of 12.5m<sup>2</sup> solar collector panel for
+solar heating plants, Sol. Energ. Mat. Sol. C. 84 (2004) 205-223. <a href="http://dx.doi.org/10.1016/j.solmat.2004.01.037" target="_blank">View Article</a></p>
+
+<p>[5] N.
+Akhtar, S.C. Mullick, Effect of absorption of solar
+radiation in glass-cover(s) on heat transfer coefficients in upward heat flow
+in single and double glazed flat-plate collectors, Int. J. Heat Mass Trans. 55
+(2012) 125-132. <a href="http://dx.doi.org/10.1016/j.ijheatmasstransfer.2011.08.048" target="_blank">View Article</a></p>
+
+<p>[6] D. Dovic, M.
+Andrassy, Numerically assisted analysis of flat and corrugated plate solar
+collectors thermal performances, Sol. Energ. 86 (2012) 2416-2431. <a href="http://dx.doi.org/10.1016/j.solener.2012.05.016" target="_blank">View Article</a></p>
+
+<p>[7] A. Subiantoro, K. T.
+Ooi, Analytical models for the computation and optimization of single and
+double glazing flat plate solar collectors with normal and small air gap
+spacing, Appl. Energ. 104 (2013) 392-399. <a href="http://dx.doi.org/10.1016/j.apenergy.2012.11.009" target="_blank">View Article</a></p>
+
+<p>[8] L. A.
+Tagliafico, F. Scarpa, M. De Rosa, Dynamic thermal models and CFD analysis for
+flat-plate thermal solar collectors - A review, Renew. Sust. Energ. Rev. 30
+(2014) 526-537. <a href="http://dx.doi.org/10.1016/j.rser.2013.10.023" target="_blank">View Article</a></p>
+
+<p>[9] D.A Close. Design
+approach for solar process, Sol. Energ. 11 (1967) 112-22. <a href="http://dx.doi.org/10.1016/0038-092X(67)90051-5" target="_blank">View Article</a></p>
+
+<p>[10] S. Klein, J.
+Duffie, W. Beckman, Transient considerations of flat-plate solar collectors, J.
+Eng. Power - T ASME, 96A (1974) 109-13. <a href="http://dx.doi.org/10.1115/1.3445757" target="_blank">View Article</a></p>
+
+<p>[11] M.S.
+Manjunath, K.V. Karanth, N.Y. Sharma, A Comparative CFD study on Solar dimple
+plate collector with flat plate collector to augment the thermal performance, World Academy
+Sci. Eng. Tech. 70 (2012) 969-975. <a href="http://eprints.manipal.edu/77785/1/A_Comparative_CFD_study_on_Solar_Dimple.pdf" target="_blank">View Article</a></p>
+
+<p>[12] A.
+Subiantoro, O.K. Tiow, Analytical models for the computation and optimization
+of single and double glazing flat plate solar collectors with normal and small
+air gap spacing, Appl. Energ. 104 (2013) 392-399. <a href="http://dx.doi.org/10.1016/j.apenergy.2012.11.009" target="_blank">View Article</a></p>
+
+<p>[13] A.C. Mintsa
+Do Ango, M. Medale, C. Abid, Optimization of the design of a polymer flat plate
+solar collector, Sol. Energ. 87 (2013) 64-75. <a href="http://dx.doi.org/10.1016/j.solener.2012.10.006" target="_blank">View Article</a></p>
+
+<p>[14] S. Basavanna,
+K. S. Shashishekar, CFD analysis of triangular absorber tube of a solar flat
+plate collector, Int. J. Mech. Eng. &amp; Rob. Res. 2 (2013) 19-24. <a href="http://ijmerr.com/ijmerradmin/upload/ijmerr_50e4731eb67b8.pdf target="_blank">View Article</a></p>
+
+<p>[15] K. Karanth, M.
+Manjunath, N. Sharma, Numerical simulation of a solar flat plate collector
+using discrete transfer radiation model (DTRM) - a CFD approach. In:
+Proceedings of the world congress on engineering. London(UK) (2011) 2355-2360. <a href="http://www.iaeng.org/publication/WCE2011/WCE2011_pp2355-2360.pdf" target="_blank">View Article</a></p>
+
+<p>[16] M.
+Selmi, M. J. Al-Khawaja, A. Marafia, Validation of CFD simulation for flat
+plate solar energy collector, Renew. Energ. 33 (2008) 383-387. <a href="http://dx.doi.org/10.1016/j.renene.2007.02.003" target="_blank">View Article</a></p>
+
+<p>[17] O. Turgut, N. Onur,
+Three dimensional numerical and experimental study of forced convection heat
+transfer on solar collector surface. Int. Commun. Heat Mass Transf. 36 (2009)
+274-279. <a href="http://dx.doi.org/10.1016/j.icheatmasstransfer.2008.10.017" target="_blank">View Article</a></p>
+
+<p>[18] J. Fan, L. J. Shah,
+S. Furbo, Flow distribution in a solar collector panel with horizontally
+inclined absorber strips, Sol. Energ. 81 (2007) 1501-1511. <a href="http://dx.doi.org/10.1016/j.solener.2007.02.001" target="_blank">View Article</a></p>
+
+<p>[19] M.
+Faizal, R. Saidur, S. Mekhilef, M.A. Alim, Energy, economic and environmental
+analysis of metal oxides nanofluid for flat-plate solar collector, Energ.
+Convers. Manage. 76 (2013) 162-168. <a href="http://dx.doi.org/10.1016/j.enconman.2013.07.038" target="_blank">View Article</a></p>
+
+<p>[20] Z.
+Said, M.H. Sajid, M.A. Alim, R. Saidur, N.A. Rahim, Experimental investigation
+of the thermophysical properties of AL<sub>2</sub>O<sub>3</sub>-nanofluid and
+its effect on a flat plate solar collector, Int.
+Commun. Heat Mass Transf. 48 (2013) 99-107. <a href="http://dx.doi.org/10.1016/j.icheatmasstransfer.2013.09.005" target="_blank">View Article</a></p>
+
+<p>[21] T. Yousefi, E.
+Shojaeizadeh, F. Veysi, S. Zinadini, An experimental investigation on the
+effect of pH variation of MWCNT-H<sub>2</sub>O nanofluid on the efficiency of a
+flat-plate solar collector, Sol. Energ. 86 (2012) 771-779. <a href="http://dx.doi.org/10.1016/j.solener.2011.12.003" target="_blank">View Article</a></p>
+
+<p>[22] T. Yousefi, F.
+Veisy, E. Shojaeizadeh, S. Zinadini, An experimental investigation on the
+effect of MWCNT-H<sub>2</sub>O nanofluid on the efficiency of flat-plate solar
+collectors, Exp. Therm. Fluid Sci. 39 (2012), 207-212. <a href="http://dx.doi.org/10.1016/j.expthermflusci.2012.01.025" target="_blank">View Article</a></p>
+
+<p>[23] T. Yousefi, F.
+Veysi, E. Shojaeizadeh, S. Zinadini, An experimental investigation on the
+effect of Al<sub>2</sub>O<sub>3</sub>-H<sub>2</sub>O nanofluid on the
+efficiency of flat-plate solar collectors, Renew. Energ. 39 (2012) 293-298. <a href="http://dx.doi.org/10.1016/j.renene.2011.08.056" target="_blank">View Article</a></p>
+
+<p>[24]. M.
+Haghshenas Fard, M. Nasr Esfahany and M. R. Talaie, Numerical Study of
+Convective Heat Transfer of Nanofluids in a Circular Tube Two-Phase Model
+Versus Single-Phase Model, Int. Commun. Heat Mass Transf. 37 (2010) 91-97. <a href="http://dx.doi.org/10.1016/j.icheatmasstransfer.2009.08.003" target="_blank">View Article</a></p>
+
+<p>[25] Fluent
+Inc, 2011. Fluent Release 14.0, USA.</p>
+
+<p>[26] B.C. Pak, Y.I. Choi,
+Hydrodynamic and heat transfer study of dispersed fluids with submicron
+metallic oxide particles, Exp. Heat Transfer 8(1998)151-170. <a href="http://dx.doi.org/10.1080/08916159808946559" target="_blank">View Article</a></p>
+
+<p>[27] D. A. Drew, S.
+L. Passman, Theory of multicomponent fluids, Springer, Berlin, (1999). <a href="http://books.google.ca/books?id=rAMInwEACAAJ&dq=Theory+of+multicomponent+fluids&hl=en&sa=X&ei=n8A-VM_ZEoOTyASTgoH4Dg&ved=0CCUQ6AEwAA" target="_blank">View Book</a></p>
+
+<p>[28] S.Q.
+Zhou, R. Ni, Measurement of the specific heat capacity of water-based Al<sub>2</sub>O<sub>3</sub> Nanofluid, Appl. Phys. Lett.
+92 (2008) 1-3. <a href="http://dx.doi.org/093123 - 093123-3" target="_blank">View Article</a></p>
+
+<p>[29]. W. Yu, U. S.
+Choi, The role of international layers in the enhanced thermal conductivity of
+nanofluids: A renovated Maxwell model, J. Nanopart. Res. 5(2003) 167-171. <a href="http://www.transportation.anl.gov/pdfs/MM/285.pdf" target="_blank">View Article</a></p>
+
+<p>[30] J. P. Van Doormal,
+G. D. Raithby, Enhancements of the SIMPLE method for predicting incompressible
+fluid flows. Numer. Heat Transfer 7 (1984) 147-163. <a href="http://dx.doi.org/10.1080/01495728408961817" target="_blank">View Article</a></p>
+
+<p>[31]. S. V.
+Patankar, Numerical heat transfer and fluid flow, Hemisphere Publishing
+Corporation, Taylor and Francis Group, New York, (1980). <a href="http://books.google.ca/books?id=5JMYZMX3OVcC&printsec=frontcover&dq=Numerical+heat+transfer+and+fluid+flow&hl=en&sa=X&ei=CME-VJmxCs63yASkiIDIAg&ved=0CCoQ6AEwAA#v=onepage&q&f=false" target="_blank">View Book</a></p>
+
+<p>[32]. H. Versteeg and M.
+Malasekera, An introduction to Computational Fluid Dynamics, McGraw Hill, New
+York, (1960). <a href="http://books.google.ca/books?id=RvBZ-UMpGzIC&dq=An++introduction+to+Computational+Fluid+Dynamics&hl=en&sa=X&ei=IcE-VKahOIuNyAS5s4CYCA&ved=0CC8Q6AEwAA" target="_blank">View Book</a></p>
+
+<p>[33] C. Cristofari, G.
+Notton, P. Poggi, A. Louche, Modeling and performance of a copolymer solar
+water heating collector. Sol. Energ. 72 (2002) 99-112. <a href="http://dx.doi.org/10.1016/S0038-092X(01)00092-5" target="_blank">View Article</a></p>
+
+<p>[34]. W. Daungthongsuk,
+S. Wongwises, Comparison of the effects of measured and Computed thermo-physical
+properties of nanofluids on heat transfer performance, Exper. Therm. Fluid Sci.
+34 (2010) 616-624. <a href="http://dx.doi.org/10.1016/j.expthermflusci.2009.11.012" target="_blank">View Article</a></p>
+
+<p>[35] J. Lee, P. E.
+Gharagozloo, B. Kolade, J. K. Eaton, K. E. Goodson, Nanofluid convection in
+microtubes, J. Heat Trans-T ASME, 132 (2010) 092401, 1-5. <a href="http://dx.doi.org/10.1115/1.4001637" target="_blank">View Article</a></p>
+
+
+<div class="clearfix"></div>
+  </div>
+<div class="clearfix"></div>
+  </div>
+<div class="clearfix"></div>
+  </div>
+
+  </div>
+
+  <div class="footer">
+
+  <div class="container">
+
+  <div class="col-sm-7 footer-link">
+
+        <p><a href="http://avestia.com">Avestia Publishing</a></p>
+        <p><a href="../register/">Subscribe to our Mailing List</a></p>
+        <p><script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://avestia.com/feedback/?refURL=' + refURL+'">Feedback</a>');</script></p>
+        <p><a href="../terms/">Terms of Use</a></p>
+		<p><a href="../sitemap/">Sitemap</a></p>
+
+      </div>
+      <div class="col-sm-5 footer-txt">
+        <p>Avestia Publishing, International ASET Inc. </p>
+        <p>Unit No. 417, 1376 Bank St. </p>
+        <p>Ottawa, Ontario, Canada </p>
+        <p>Postal Code: K1H 7Y3</p>
+        <p>Phone Number: 1-613-695-3040</p>
+
+  </div>
+
+  </div>
+
+  </div>
+
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

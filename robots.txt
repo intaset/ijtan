@@ -1,0 +1,3 @@
+Sitemap: http://www.ijtan.avestia.com/sitemap.xml
+
+User-agent: *

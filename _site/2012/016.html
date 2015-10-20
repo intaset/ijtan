@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>IJTAN - Negative Differential Resistance in GaN/AlN Heterostructure Nanowires</title>
+
+
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:300,400,400italic,500,600,700,700italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Antic+Slab:300,400,400italic,500,600,700,700italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="../css/style.css" />
+
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../images/icon.ico" rel="shortcut icon" type="image/x-icon">
+
+<!--Goole Analytics Most Visited Article Code-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-45305128-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<!-- Include Most Visited Articles JS Code -->
+ <script type="text/javascript" src="mostvisited.js"></script> 
+
+<!-- Include SHARE THIS js sources -->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "8f49e037-5155-4595-abc0-d069deae6488", doNotHash: true, doNotCopy: false, hashAddressBar: false, onhover:false});</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <div class="header">
+
+    <div class="container">
+
+      <div class="row">
+
+        <header id="header">
+          <div class="logo col-sm-4"><a href="http://avestia.com"><img src="/images/logo.png" alt="Journal" class="img" /></a></div>
+          <div class="threemenu col-sm-5">
+            <div class="row"><a class="link col-sm-4" href="http://avestia.com"><img src="/images/home.jpg" class="img"></a> <a class="link col-sm-4" href="http://avestia.com/journals/"><img src="/images/journals.jpg" class="img"></a> <a class="link col-sm-4" href="http://amss.avestia.com"><img src="/images/submit.jpg" class="img"></a></div>
+          </div>
+          <div class="searching col-sm-3">
+<div class="sharethis">Share this page:<br/>
+<span class='st_email'></span>
+<span class='st_facebook'></span>
+<span class='st_twitter'></span>
+<span class='st_googleplus'></span>
+<span class='st_linkedin'></span>
+</div>
+            
+         <div class="search_wrapper">
+         <form class="search" action="../results" method="get">
+              <fieldset>
+                <span class="text">
+                <input name="q" id="q" type="text" value="" placeholder="Search..." /><button class="search_top_button">GO</button>
+                </span>
+
+              </fieldset>
+            </form>
+            
+            </div>
+          </div>
+          <div class="col-lg-12">
+
+
+          <div class="avada-row">
+
+            <nav id="nav" class="nav-holder">
+
+              <div role="navigation" class="navbar navbar-default">
+
+                <div class="container-fluid">
+
+                  <div class="navbar-header">
+                  
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+<span class="navbar-brand" href="#">Menu</span>
+                  </div>
+
+                  <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav">			
+					<li><a href="/">Journal Home</a></li><span class="menu-line">|</span>
+                        <li><a href="../aims/">Aims and Scopes</a></li><span class="menu-line">|</span>
+                        <li><a href="../charges/">Article Processing Charges</a></li><span class="menu-line">|</span>
+                        <li><a href="../guidelines/">Author Guidelines</a></li><span class="menu-line">|</span>
+                        <li><a href="../board/">Editorial Board</a></li><br>
+                        <li><a href="../volumes/">Past Volumes</a></li><span class="menu-line">|</span>
+                        <li><a href="../current/">Current Volume</a></li><span class="menu-line">|</span>
+                        <li><a href="../propose/">Propose a Special Topic</a></li><span class="menu-line">|</span>
+                        <li><a href="../register/">Receive Updates</a></li><span class="menu-line">|</span>
+                        <li><a href="../contact/">Contact Us</a></li>
+
+
+
+
+                    </ul>
+
+                  </div>
+
+                  <!--/.nav-collapse -->
+
+                </div>
+
+                <!--/.container-fluid -->
+
+              </div>
+
+            </nav>
+
+            </div>
+
+          </div>
+          <div class="clearfix"></div>
+
+        </header>
+
+      </div>
+
+    </div>
+<div class="clearfix"></div>
+  </div>
+
+  <div class="slider">
+
+  <div class="container">
+
+  <div class="row"><div class="col-lg-12"><img class="img2" src="../images/international.jpg" alt="img"></div></div>
+
+  </div>
+
+  </div>
+
+  <div class="container">
+  <div class="clearfix"></div>
+  <div class="row">
+
+  <div class="col-lg-12 text"><div align=center>
+<div class="table">
+
+    <table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 style='border:none; width: 100%'>
+         <tr>
+                <td>Volume 1, Issue 1, Year 2014 - Pages 105-110</td>
+                <td align="right"><a href="PDF/016.pdf">View PDF (Full-text)</a></td>
+        </tr>
+         <tr>
+                <td>DOI: 10.11159/ijtan.2012.016</td>
+                <td align="right"><a href="#references">Linked References</a></td>
+        </tr>
+		<tr>
+		<td colspan="2">ISSN: 1929-1248</td>
+		</tr>
+     </table>
+     
+</div>
+</div>
+
+<br>
+
+<p align="center" style="font-size:22pt;">Negative Differential Resistance in GaN/AlN Heterostructure Nanowires</p>
+
+<p align="center">
+	<strong>Andy Shih, Saeed Fathololoumi, Songrui Zhao, Binh Le Huy, Hieu Pham Trung Nguyen, Ishiang Shih, Zetian Mi</strong>
+     <Br>McGill University, Department of Electrical and Computer Engineering,
+3480 University Street, Montreal, Quebec, Canada H3A 2A7<Br>
+zetian.mi@mcgill.ca
+ 
+</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="justify"><i><strong>Abstract- </strong>
+ III-V semiconductor nanowire heterostructures have experienced great progress in numerous mid- and far-infrared ranges. In this work, the electrical properties of GaN/AlN nanowire heterostructures, oriented along the [0001] polar direction and grown vertically on a Si substrate by molecular beam epitaxy, were studied in the context of resonant tunneling. The negative differential resistance was observed in I-V measurements at room temperature and at 78 K for single nanowire devices, confirming the presence of resonant tunneling through AlN barriers. A peak-to-valley ratio of 1.4 was achieved. Effects of different doping profiles have been investigated, showing slight improvement of the resonant tunneling in the presence of silicon doping. This work represents a preliminary step in developing GaN nanowire based intersubband devices for far-infrared and telecom wavelength lasers and photodetectors.</i></p>
+
+
+<p align="left"><i><strong>Keywords:</strong></i> GaN, AlN, III-V Nanowire, Intersubband Transition, Resonant Tunneling, Negative Differential Resistance </p>
+
+<p>&nbsp;</p>
+<p align="justify"> &copy; Copyright 2012 Authors - This is an Open Access article published under the <a href="http://creativecommons.org/licenses/by/2.0" target="_blank">Creative Commons Attribution License terms</a>. Unrestricted use, distribution, and reproduction in any medium are permitted, provided the original work is properly cited.</p>
+
+<p>&nbsp;</p>
+
+
+<img src="../images/line.png" width="100%;" height="1" />
+<h2>1. Introduction</h2>
+
+<p align="justify" style="text-indent:19.85pt;">The transport properties of semiconductor multiple quantum well (MQW) heterostructures was first studied by Esaki and Tsu (1970). Not long after, Kazarinov
+
+and Suris suggested using the superlattice
+
+heterostructures for the amplification of
+
+electromagnetic waves via intersubband transitions (Kazarinov and Suris, 1971). Intersubband transitions in the conduction band would allow
+
+for the absorption and emission of infrared photons, which is not feasible in
+
+the interband scheme.
+
+However, the intersubband light amplification
+
+requires resonant tunneling in order to operate in the electrically stable
+
+positive differential resistance regime. Resonant tunneling occurs when two
+
+energy states from two separate quantum wells anticross
+
+across a barrier at a given electric field. Moreover, resonant tunneling can be
+
+characterized by either a coherent or sequential transport mechanism. In the
+
+former case, the large anticrossing between the
+
+coupled states results in a Fabry-Perot like carrier
+
+transport. However, in the latter case that is also known as sequential
+
+tunneling, significant electron scattering within the well makes each quantum
+
+tunneling independent of each other (Aleshkin et al.,
+
+2006). For the case of sequential tunneling (with coupling strength of &#937; and dephasing
+
+time of &#964;<sub>//</sub>) and electron scattering (with rate of &#964;<sub>2</sub><sup>-1</sup>),
+
+it was found that the transport becomes coherent if 4&#8486;<sup>2</sup>&#964;<sub>2</sub>
+
+&#964;<sub>||</sub> &gt;&gt; 1 and is incoherent if 4&#8486;<sup>2</sup>&#964;<sub>2</sub>
+
+&#964;<sub>||</sub> &lt;&lt; 1 (Kazarinov and Suris, 1971).</p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">MQWs in conjunction with intersubband
+
+transitions have led to the development of quantum cascade lasers (QCL) with
+
+emission spectra in the mid- and far-infrared (Williams, 2007). The first QCL,
+
+lasing at 4.2 &mu;m, was demonstrated by Faist et al.
+
+(1994) at Bell Labs. Numerous applications involving QCL have emerged since the
+
+Bell Labs development such as high-resolution spectroscopy, terahertz imaging
+
+for non-invasive inspection, and plasma diagnostics (Williams, 2007; Hu, 2008).
+
+Moreover, MQW heterostructures can be utilized as
+
+functional devices such as multiple-valued memory cells (Seabaugh
+
+et al., 1992) by taking advantage of its negative differential resistance
+
+(NDR), the signature property of resonant tunnelling (Capasso
+
+and Kiehl, 1985). NDR is a property that manifests
+
+itself in the current-voltage (I-V) characteristics where the rate of change
+
+goes from positive to negative as the voltage across the device increases. This
+
+is explained through the breaking and creation of resonance between the finite
+
+states inside the quantum wells and the conduction band in the emitter side as
+
+a bias is applied (Sun, 1998). Beyond intersubband
+
+transitions and infrared emission and absorption, MQW heterostructure
+
+devices have also been designed for blue light emitting diodes (Yang et al.,
+
+2000).</p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">During the last two decades, many groups have reported MQW structures
+
+used for intersubband emission and absorption of
+
+infrared light from III-V and II-VI materials such as GaAs/AlGaAs, InAs/AlSb,
+
+and ZnO/MgZnO (Helm et al.,
+
+1988; Warburton et al., 1995; Ohtani et al., 2009).
+
+More recently, GaN and its nitride alloys have
+
+attracted a lot of attention due to its high conduction band offset with AlN (1.7 eV) (Rigutti
+
+et al., 2010), allowing for deep confinement of states within the quantum
+
+wells, short relaxation times of less than 150 fs (Iizuka et al., 2000; Hamazaki et
+
+al., 2004), allowing for the development of high frequency oscillators and
+
+ultrafast optical switches, and large longitudinal optical (LO) phonon energy
+
+of 92 meV, allowing for photon emission in the
+
+wavelength regions that was not accessible previously (e.g. between 30 and 70&#956;m and
+
+below 2.5 &#956;m, as
+
+small as 1.08 &mu;m) (Kishino et al., 2002). The GaN/AlN system can thus be
+
+designed for the fiber-optics transmission wavelength range of 1.3 to 1.55 &mu;m (Kandaswamy, 2008). </p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">Unfortunately, GaN-based resonant tunneling
+
+diodes still remains a challenge in terms of producing repeatable NDR with a
+
+large peak-to-valley ratio, both at cryogenic and room temperature (RT)
+
+conditions (Bayram et al., 2010). In c-plane
+
+nitride-based RTDs, the I-V characteristics tend to degrade irreversibly after
+
+the initial voltage scan. Repeatable NDR, however, has been observed in wurtzite nitrides on nonpolar (m-plane) GaN
+
+substrates (Li et al., 2012). It has been shown that a non-polar orientation
+
+should improve resonant tunneling when compared to a polar one, and that AlN barriers, compared to AlGaN
+
+ones, will result in higher peak-to-valley ratios (Carnevale
+
+et al., 2012). This absence of reproducibility has been largely attributed to
+
+the charge trapping at dislocation sites (Golka et al.,
+
+2006). Furthermore, leakage paths through dislocations may lead to relatively
+
+small peak-to-valley ratios (1.03, Li et al.), pushing the need for dislocation
+
+free nitride structures.</p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">III-nitrides are very interesting due to their high breakdown voltage
+
+(for GaN, 3 MV/cm), high electron mobility (for GaN, 1000-2000 cm<sup>2 </sup>V<sup>-1 </sup>s<sup>-1</sup>)
+
+and high heat capacity and thermal conductivity (for GaN,
+
+&gt;1.5 Wcm<sup>-1</sup>K<sup>-1</sup>)
+
+(Eastman and Mishra, 2002). Unfortunately, the growth of high quality GaN/AlN heterostructures
+
+is limited due to the existing lattice mismatch (~ 2.5%) and the lack of
+
+suitable large area substrates. In this work, by virtue of strain relaxation in
+
+nanowires, we have grown high quality GaN/AlN 1D heterostructures with very
+
+low threading dislocation density (Wang et al., 2012; Nguyen et al., 2011; Fathololoumi et al., 2011; Rigutti
+
+et al., 2010). The free lateral surfaces of the nanowire allow for strain
+
+relaxation, preventing dislocations from appearing within the nanowire
+
+structure (Glas, 2006). Here, we report the negative
+
+differential resistance in GaN/AlN
+
+multiple quantum well heterostructure nanowires.</p>
+
+
+<h2>2. Fabrication and Results</h2>
+
+
+<figure>
+<img src="016_files/image002.png" class="img"/>
+
+<figcaption>
+Figure 1. (a) Design of the GaN/AlN nanowires with 10 periods of GaN/AlN structure.</figcaption>
+</figure>
+<br>
+
+
+<figure>
+<img src="016_files/image004.png" class="img"/>
+
+<figcaption>
+Figure 2. (a) SEM image of an array of GaN/AlN nanowires and (b, c) TEM images of a single GaN/AlN heterostructure nanowire.</figcaption>
+</figure>
+<br>
+
+
+<p align="justify" style="text-indent:19.85pt;">The GaN/AlN heterostructure nanowires with 10 AlN
+
+barriers were grown on Si (111) substrates using self-catalytic growth process,
+
+by radio-frequency plasma-assisted molecular beam epitaxy.
+
+The growth process was performed under nitrogen rich conditions, favouring the
+
+formation of the nanowire structure as opposed to a planar one. Furthermore, a
+
+self-catalytic growth process involving Ga droplets
+
+on the surface of the silicon substrate is preferred to avoid any unwanted
+
+contamination with metal catalysts that are typically used in other III-V
+
+nanowire growth procedures (Calarco et al., 2007).
+
+The nanowires are oriented along the [0001] polar direction with their
+
+sidewalls being non-polar m-planes. The diagram of the nanowire structure can
+
+be seen in Fig. 1-a. High-resolution scanning electron microscopy, shown in
+
+Fig. 2-a, depicts dense hexagonal nanowires, uniformly distributed across the
+
+wafer. A closer look at the transmission electron micrograph of the nanowires
+
+reveals that the structures are grown nearly free of dislocations (see Figs.
+
+2-b-c). Moreover, micro-photoluminescence measurements were performed (shown in
+
+Fig. 3) with a HeCd laser (&#955; ~ 325 nm), a
+
+high-resolution spectrometer and a photomultiplier tube. A strong peak is
+
+observed at 3.42 eV with a narrow FWHM of 0.1 eV, indicating nanowires of high quality. In addition,
+
+there is no sign of yellow luminescence at ~2.2 eV at
+
+RT in the &mu;-PL measurements. Yellow luminescence in GaN
+
+is said to arise from transitions between the conduction band (or shallow donors) and deep acceptor levels (Shalish et al., 1999). This phenomenon can severely degrade
+
+the performance of optoelectronic devices by creating a secondary recombination
+
+path (Kucheyev et al., 2002). The nanowires have a
+
+height of ~850 nm and a diameter of ~45 nm near the GaN/AlN periodic structure. Tapering and consequently
+
+coalescence of the GaN/AlN
+
+nanowires also appear to occur, as shown in Figs. 2-a-b. In our case, tapering
+
+is partly caused by the introduction of the AlN
+
+disks. The slower migration rate of Al atoms versus Ga
+
+atoms leads to a slower vertical growth rate of AlN
+
+compared to GaN and ultimately wider diameters at the
+
+AlN disks. Coalescence of the nanowires can lead to
+
+unwanted electrical behaviour with current bypassing the periodic tunnelling
+
+structure and effectively shorting the device. Tapering of the nanowires can
+
+possibly be controlled by a Ga-flux during the growth
+
+process (Meijers et al., 2006).</p>
+
+
+
+<figure>
+<img src="016_files/image006.png" class="img"/>
+
+<figcaption>
+Figure 3. Micro-photoluminescence measurement of the GaN/AlN multiple quantum well nanowire with a strong peak at 3.42 eV and with no yellow luminescence, suggesting defect free structures.</figcaption>
+</figure>
+<br>
+
+
+<p align="justify" style="text-indent:19.85pt;">Fig. 2-c shows that ~2.5 nm thick GaN disks
+
+are separated using ten ~2.5 nm thick AlN disks,
+
+forming a multiple barrier tunneling structure. The entire AlN/GaN disks are sandwiched between two highly Si-doped (carrier
+
+concentration of ~1E19 cm<sup>-3</sup>) GaN cladding
+
+regions (length of ~ 400 nm) used to facilitate the single nanowire contact
+
+process. Three samples, denoted samples A, B, and C, with Si-doping level of ~
+
+0, 2E16 cm<sup>-3</sup>, and 1E17 cm<sup>-3</sup>,
+
+respectively, are utilized to study the effect of doping on the
+
+tunneling through AlN barriers. Here, we have focused
+
+on single nanowire devices to test I-V characteristics of the GaN/AlN multiple barrier tunnel junction.</p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">The single nanowire devices were fabricated by dispersing nanowires
+
+horizontally onto a SiO<sub>2</sub> template and by drawing the contacts using
+
+electron beam lithography to deposit metal contacts of Ti/Al/Ti/Au (10/50/10/50
+
+nm). The single nanowire devices, shown in Figs. 4 and 5, were fabricated using
+
+the three different Si-doped samples. I-V measurements were performed in a
+
+cryogenic test chamber at RT and at 78 K, under high vacuum (~1E-7 torr) and dark conditions. A 2400 Keithley
+
+was used to measure the I-V characteristics.</p>
+
+<figure>
+<img src="016_files/image008.png" class="img"/>
+
+<figcaption>
+Figure 4.  A single nanowire device taken by a scanning electron microscope.</figcaption>
+</figure>
+<br>
+
+<figure>
+<img src="016_files/image010.png" class="img"/>
+
+<figcaption>
+Figure 5. Cross section of a single nanowire device.</figcaption>
+</figure>
+<br>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">Single nanowire devices were tested with successive voltage sweeps
+
+(typically increasing in amplitude, up to 12 V). NDR was clearly observed in
+
+the nanowire, as seen in Fig. 6. However, the shape and position of the NDR
+
+peaks vary significantly between each voltage measurement. The device stability
+
+also degrades with the NDR disappearing after multiple sweeps, suggesting that
+
+dislocations and charge trapping are still present in the nanowire structure. Nonetheless,
+
+NDR was present initially in both the RT and 78 K measurements with a peak-to-valley
+
+ratio of ~1.4.</p>
+
+
+
+<p align="justify" style="text-indent:19.85pt;">Temperature dependence tests were also performed at 78, 100, 150, 200,
+
+250 and 300 K. In general, a clearer NDR effect was observed at lower
+
+temperatures. In devices that displayed little NDR at RT but prominent NDR at
+
+low temperatures, lower resistivity at lower temperatures was also observed.
+
+Similar results were achieved for AlGaAs/GaAs superlattice structures as
+
+previously shown (Capasso et al., 1985). However, Rigutti observed the opposite in which decreasing the
+
+temperature leads to higher resistivity and more prominent NDR in GaN/AlN superlattice
+
+nanowires (Rigutti et al., 2010). In our case, there
+
+is the possibility of a "hard breaking" in the device, in which a permanent
+
+physical change has occurred due to electrical stress. Hysteresis was also
+
+observed in the nanowires displaying NDR when the voltage was swept back
+
+towards zero, and can be attributed to the bias-dependent trapping of electrons
+
+in the quantum wells (Belyaev et al., 2003).</p>
+
+
+
+<figure>
+<img src="016_files/image0006.png" class="img"/>
+
+<figcaption>
+Figure 6. I-V characterisitics of GaN/AlN single nanowire sample A at RT for the (a) first, (b) second, (c) third and (d) fourth voltage sweep.</figcaption>
+</figure>
+<br>
+
+
+<p align="justify" style="text-indent:19.85pt;">Ensemble
+
+nanowire samples were also tested. In general, no noticeable NDR was present in
+
+the RT experiments, due to non-uniformity of the nanowires over the large area.
+
+However, the NDR was found when testing ensemble nanowire devices at 78 K. The
+
+ensemble nanowire samples achieved a peak-to-valley ratio of ~1.2. Moreover, it
+
+was found that doping the nanowires with Si improved slightly the occurrence of
+
+NDR in the I-V characteristics for both the single nanowire and ensemble
+
+nanowire devices.</p>
+
+
+
+<h2>3. Conclusion</h2>
+
+<p align="justify" style="text-indent:19.85pt;">In conclusion, GaN/AlN
+
+multiple quantum well nanowires have been grown by radio-frequency assisted
+
+molecular beam epitaxy. Although negative
+
+differential resistance was only observed at 78 K for the ensemble nanowire
+
+samples, it was found to be present at 78 K as well as room temperature for the
+
+single nanowire devices, an important step forward in achieving room temperature
+
+infrared emission and absorption via intersubband
+
+transitions. A peak-to-valley ratio of ~1.4 was found; however, repeatability
+
+of the I-V measurements still remains an issue. Moreover, the effects of Si
+
+doping did appear to improve slightly the negative differential resistance.
+
+Future works will involve more in depth characterization of doping and
+
+annealing effects on the electrical performance of the nanowires. Variations in
+
+the well and barrier widths will be optimized to achieve higher transmission
+
+coefficients (shorter tunneling time).</p>
+
+
+
+<h2>Acknowledgements</h2>
+
+
+<p align="justify" style="text-indent:19.85pt;">The
+
+authors would like to acknowledge the financial support from the Natural
+
+Science and Engineering Research Council of Canada (NSERC), the Fonds de recherche du Qu&eacute; &eacute;bec 
+
+(FQRNT), as well as the Canadian Foundation for Innovation (CFI).</p>
+
+
+
+
+
+<img src="images/line.png" width="100&#37;" height="1" />
+<H2><a name="references">References</a></H2>
+
+
+<p> Aleshkin, V. Y., Reggiani, L., Rosini, M. (2006). Comparative analysis of sequential and coherent tunneling models in resonant diodes. Physical Review B, 73, 165320-1 - 165320-9.  <a href="http://dx.doi.org/10.1103/PhysRevB.73.165320" target="_blank">View Article</a></p>
+
+
+
+<p> Bayram, C., Vashaei, Z., Razeghi, M. (2010). Reliability in room-temperature negative differential resistance characteristics of low-aluminum content AlGaN/GaN double-barrier resonant tunneling diodes. Applied Physics Letter, 97, 181109. <a href="http://dx.doi.org/10.1063/1.3515418" target="_blank">View Article</a></p>
+
+
+
+<p> Belyaev, A. E., Foxon, C. T., Novikov, S. V., Makarovsky, O., Eaves, L. (2003) Comment on "AlN/GaN double-barrier resonant tunneling diodes grown by rf-plasma-assisted molecular-beam epitaxy" [Applied Physics Letter 81, 1729 (2002)]. Applied Physics Letter, 83, 17, 3626-3627. <a href="http://dx.doi.org/10.1063/1.1501157  " target="_blank">View Article</a></p>
+
+
+
+<p> Calarco, R., Meijers, R. J., Debnath, R. T., Stoica, T., Sutter, E., L&uuml;th, H. (2007). Nucleation and Growth of GaN Nanowires on Si(111) Performed by Molecular Beam Epitaxy. Nano Letter, 7, 8, 2248-2251. <a href="http://dx.doi.org/10.1021/nl0707398" target="_blank">View Article</a></p>
+
+
+
+<p> Capasso, F., Kiehl, R.  A. (1985). Resonant tunneling transistor with quantum well base and high-energy injection: A new negative differential resistance device. Journal of Applied Physics 58, 1366-1368. <a href="http://dx.doi.org/10.1063/1.336109" target="_blank">View Article</a></p>
+
+
+
+<p> Carnevale, S. D., Marginean, C., Philips, P. J., Kent, T. F., SSawrar, A. T. M. G., Mills, M. J., Myers, R. C. (2012). Coaxial nanowire resonant tunneling diodes from non-polar AlN/GaN on silicon. Applied Physics Letter, 100, 142115.  <a href="http://dx.doi.org/10.1063/1.3701586 " target="_blank">View Article</a></p>
+
+
+
+<p> Davydov, A. V., Motayed, A., Boettinger, W. J., Gates, R. S., Xue, Q. Z, Lee, H. C., Yoo, Y. K. (2005). Combinatorial optimization of Ti/Al/Ti/Au ohmic contacts to n-GaN. Physics of the Solid State 2, 7, 2551-2554. <a href="http://dx.doi.org/10.1002/pssc.200461605" target="_blank">View Article</a></p>
+
+
+
+<p> Eastman, L. F., Mishra, U. K. (2002). The Toughest Transistor Yet. IEEE Spectrum, 39, 5, 28-33. <a href="http://dx.doi.org/10.1109/6.999791 " target="_blank">View Article</a></p>
+
+
+
+<p> Esaki, L., Tsu, R. (1970). Superlattice and Negative Differential Conductivity in Semiconductors. IBM Journal of Research and Development, 14, 61-65. <a href="http://dx.doi.org/10.1147/rd.141.0061" target="_blank">View Article</a></p>
+
+
+
+<p> Faist, J., Capasso, F., Sivco, D. L., Sirtori, C., Hutchinson, A. L., Cho, A. Y. (1994). Quantum Cascade Laser. Science, 264, 5158, 553-556. <a href="http://www.phys.ethz.ch/~mesoqc/qcl/science264.pdf " target="_blank">View Article</a></p>
+
+
+
+
+
+<p>Fathololoumi, S., Nguyen, H. P. T., Mi, Z. (2011). Self-Organized In(Ga)N Nanowire Heterostructures and Optoelectronic Device Applications. Nanosci. And Nanotech. Asia, 2, 123-139.</p>
+
+
+
+<p> Glas, F. (2006). Critical dimensions for the plastic relaxation of strained axial heterostructures in free-standing nanowires. Physical Review B, 74, 121302-1-4. <a href="http://dx.doi.org/10.1103/PhysRevB.74.121302 " target="_blank">View Article</a></p>
+
+
+
+<p> Golka, S., Pflugl, C., Schrenk, W., Strasser, G., Skierbiszewski, C., Siekacz, M., Grzegory, I., Porowski, S. (2006). Negative differential resistance in dislocation-free GaN/AlGaN double-barrier diodes grown on bulk GaN. Applied Physics Letter, 88, 172106-1-4. <a href="http://dx.doi.org/10.1063/1.2199445 " target="_blank">View Article</a></p>
+
+
+
+<p> Hamazaki, J., Matsui, S., Kunugita, H., Ema, K., Kanazawa, H., Tachibana, T., Kikuchi, A., Kishino, K. (2004). Ultrafast intersubband relaxation and nonlinear susceptibility at 1.55 &mu;m in GaN/AlN multiple-quantum wells. Applied Physics Letter, 84, 1102-1104. <a href="http://dx.doi.org/10.1063/1.1647275" target="_blank">View Article</a></p>
+
+
+
+<p> Helm, M., Colas, E., England, P., DeRosa, F., Allen, S. J. Jr. (1988). Observation of grating-induced intersubband emission from GaAs/AlGaAs superlattices. Applied Physics Letter 53, 1714-1716. <a href="http://dx.doi.org/10.1063/1.99803" target="_blank">View Article</a></p>
+
+
+
+<p> Helm, M., England P., Colas E., DeRosa F., Allen, S. J. Jr. (1989). Intersubband Emission from Semiconductor Superlattices Excited by Sequential Resonant Tunneling. Physical Review Letter, 63, 74-77. <a href="http://dx.doi.org/10.1103/PhysRevLett.63.74" target="_blank">View Article</a></p>
+
+
+
+<p>Hu, Q. (2008). Terahertz Quantum Cascade Lasers and Real-time T-rays Imaging at video rate. Terahertz Science and Technology. 1, 1, 1-10.<a href="http://www.rle.mit.edu/thz/documents/Hu-SICAST-2009.pdf " target="_blank">View Article</a></p>
+
+
+
+<p> Iizuka, N., Kaneko, K., Suzuki, N., Asano, T., Noda, S. (2000). Ultrafast intersubband relaxation (150 fs) in AlGaN/GaN multiple quantum wells. Applied Physics Letter, 77, 5, 648-650. <a href="http://dx.doi.org/10.1063/1.127073" target="_blank">View Article</a></p>
+
+
+
+<p> Kandaswamy, P. K., Guillot, F., Bellet-Amalric, E., Monroy, E., Nevou, L., Techernycheva, M., Michon, A., Julien, F. H., Baumann, E., Giorgetta, F. R., Hofstetter, D., Remmele, T., Albrecht, M., Birner, S., Dang, L. S. (2008). GaN/AlN short-period superlattices for intersubband optoelectronics: A systematic study of their epitaxial growth, design, and performance. Journal of Applied Physics 104, 093501-1-16. <a href="http://dx.doi.org/10.1063/1.3003507  " target="_blank">View Article</a></p>
+
+
+
+
+
+<p>Kazarinov, R. F., Suris, R. A. (1971). Possibility of amplification of electromagnetic waves in a semiconductor with a superlattice. Sov. Phys. Semicond., 5, 707. </p>
+
+
+
+
+
+<p> Kishino, K., Kikuchi, A., Kanazawa, H., Tachibana, T. (2002). Intersubband transition in (GaN)m/(AlN)n superlattices in the wavelength range from 1.08 to 1.61 &mu;m. Applied Physics Letter, 81, 7, 1234-1236. <a href="http://dx.doi.org/10.1063/1.1500432 " target="_blank">View Article</a></p>
+
+
+
+<p> Kucheyev, S. O., Toth, M., Phillips, M. R., Williams, J. S., Jagadish, C., Li, G. (2002). Chemical origin of the yellow luminescence in GaN. Journal of Applied Physics 91, 9, 5867-5874. <a href="http://dx.doi.org/10.1063/1.1467605" target="_blank">View Article</a></p>
+
+
+
+<p> Li, D., Tang, L., Edmunds, C., Shao, J., Gardner, G. (2012). Repeatable low-temperature negative-differential resistance from Al0.18Ga0.82N/GaN resonant tunneling diodes grown by molecular-beam epitaxy on free-standing GaN substrates. Applied Physics Letter, 100, 252105. <a href="http://dx.doi.org/10.1063/1.4729819" target="_blank">View Article</a></p>
+
+
+
+<p> Meijers, R., Richter, T., Calarco, R., Stoica, T., Bochem, H.-P., Marso, M., L&uuml;th, H. (2006). GaN-nanowhiskers: MBE-growth conditions and optical properties. Journal of Crystal Growth, 289, 381-386. <a href="http://dx.doi.org/10.1016/j.jcrysgro.2005.11.117" target="_blank">View Article</a></p>
+
+
+
+<p> Nguyen, H. P. T., Zhang, S., Cui, K., Han, X., Fathololoumi, S., Couillard, M., Botton, G. A., Mi, Z. (2011). p-Type Modulation Doped InGaN/GaN Dot-in-a-Wire White-Light-Emitting Diodes Monolithically Grown on Si(111).  Nano Letter, 11, 1919-1924. <a href="http://dx.doi.org/ 10.1021/nl104536x" target="_blank">View Article</a></p>
+
+
+
+<p> Ohtani, K., Belmoubarik, M., Ohno, H. (2009). Intersubband optical transitions in ZnO-based quantum wells grown by plasma-assisted molecular beam epitaxy. Journal of Crystal Growth, 311, 2176-2178. <a href="http://dx.doi.org/10.1016/j.freeradbiomed.2007.03.010" target="_blank">View Article</a></p>
+
+
+
+<p> Rigutti, L., Jacopin G., Bugallo A. D. L., Tchernycheva M., Warde E., Julien F. H., Songmuang R., Galopin E., Largeau L., Harmand J.-C. (2010). Investigation of the electronic transport in GaN nanowires containing GaN/AlN quantum discs. Nanotechnology, Vol. 21, 425206-1 - 425206-6. <a href="http://dx.doi.org/10.1088/0957-4484/21/42/425206" target="_blank">View Article</a></p>
+
+
+
+<p> Seabaugh, A. C., Kao, Y.-C., Yuan, H.-T. (1992). Nine-State Resonant Tunneling Diode Memory. IEEE Electron Device Letter, 13, 9, 479-481. <a href="http://dx.doi.org/10.1109/55.192801" target="_blank">View Article</a></p>
+
+
+
+<p> Shalish, I., Kronik, L., Segal, G., Rosenwaks, Y., Shapira, Y. (1999). Yellow luminescence and related deep levels in unintentionally doped GaN films. Physical Review B., 59, 15, 9748-9751. <a href="http://dx.doi.org/10.1103/PhysRevB.59.9748" target="_blank">View Article</a></p>
+
+
+
+<p> Sun, J. P., Haddad, G. I., Mazumder, P., Schulman, J. N. (1998). Resonant Tunneling Diodes: Models and Applications. Proceedings of the IEEE, 86, 4, 641-661. <a href="http://dx.doi.org/10.1109/5.663541" target="_blank">View Article</a></p>
+
+
+
+<p> Wang, Q., Nguyen, H. P. T., Cui, K., Mi, Z. (2012). High efficiency ultraviolet emission from AlxGa1-xN core-shell nanowire heterostructures grown on Si (111) by molecular beam epitaxy. Applied Physics Letter, 101, 0.43115-1-4. <a href="http://dx.doi.org/10.1063/1.4738983" target="_blank">View Article</a></p>
+
+
+
+<p> Warburton,  R. J., Gauer, C., Wixforth, A., Kotthaus, J. P. (1995). Intersubband resonances in InAs/AlSb quantum wells: Selection rules, matrix elements, and the depolarization field. Physical Review B., 53, 12, 7903-7910. <a href="http://dx.doi.org/10.1103/PhysRevB.53.7903" target="_blank">View Article</a></p>
+
+
+
+<p> Williams, B. S. (2007). Terahertz quantum-cascade lasers. Nature Photonics, 1, 517-525. <a href="http://dx.doi.org/10.1038/nphoton.2007.166" target="_blank">View Article</a></p>
+
+
+<div class="clearfix"></div>
+  </div>
+<div class="clearfix"></div>
+  </div>
+<div class="clearfix"></div>
+  </div>
+
+  
+
+  <div class="footer">
+
+  <div class="container">
+
+  <div class="col-sm-7 footer-link">
+
+        <p><a href="http://avestia.com">Avestia Publishing</a></p>
+        <p><a href="../register/">Subscribe to our Mailing List</a></p>
+        <p><script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://avestia.com/feedback/?refURL=' + refURL+'">Feedback</a>');</script></p>
+        <p><a href="../terms/">Terms of Use</a></p>
+		<p><a href="../sitemap/">Sitemap</a></p>
+
+      </div>
+      <div class="col-sm-5 footer-txt">
+        <p>Avestia Publishing, International ASET Inc. </p>
+        <p>Unit No. 417, 1376 Bank St. </p>
+        <p>Ottawa, Ontario, Canada </p>
+        <p>Postal Code: K1H 7Y3</p>
+        <p>Phone Number: 1-613-695-3040</p>
+
+  </div>
+
+  </div>
+
+  </div>
+
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
+
+
